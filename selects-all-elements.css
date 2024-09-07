@@ -1,0 +1,12 @@
+/* Selectors all elements */
+
+*{
+	margin:0;
+	padding:0;
+	color:blue;
+}
+
+.container{
+	width:100%;
+	border:2pxsolid black;
+}

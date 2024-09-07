@@ -1,0 +1,22 @@
+/* selector::pseudo-element {
+  property: value;
+} */
+
+/* Example: */
+span {
+  font-size: 50px;
+}
+
+span::before {
+  content: " ";
+  display: inline-block;
+  border: 1px solid black;
+  width: 100px;
+  height: 100px;
+}
+
+span::after {
+  content: "C";
+  color: red;
+  font-size: 24px;
+}

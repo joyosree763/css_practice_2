@@ -1,0 +1,51 @@
+/* selector:pseudo-class {
+  property: value;
+} */
+
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 48px;
+}
+
+/* Example: */
+a:link {
+  color: green;
+}
+
+a:visited {
+  color: orange;
+}
+
+a:hover {
+  color: red;
+}
+
+a:active {
+  color: blueviolet;
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  border: 2px solid black;
+}
+
+.box:hover {
+  background-color: blue;
+}
+
+article {
+  border: 1px solid black;
+  width: 600px;
+  margin: 0 auto;
+}
+
+article:hover h2,
+article:hover p {
+  color: brown;
+}
+
+/* article:hover p {
+  color: brown;
+} */
